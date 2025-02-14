@@ -192,4 +192,4 @@ if option == "Parkinson's Prediction":
 
     st.success(parkinsons_diagnosis)
 
-st.info("This system uses machine learning models. Consult a healthcare professional for an official diagnosis.")
+st.error("This system uses machine learning models. Consult a healthcare professional for an official diagnosis.")
