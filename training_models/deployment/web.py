@@ -23,7 +23,7 @@ def add_bg_from_local():
         f"""
         <style>
         .stApp {{
-            background-image: url("");
+            background-image: url("https://raw.githubusercontent.com/eshitakundu/disease-outbreak-predictor/main/training_models/deployment/health.png");
             background-size: cover;
         }}
         </style>
@@ -35,8 +35,8 @@ add_bg_from_local()
 
 #Displaying Header
 st.markdown("""
-    <h1 style='text-align: center; color:rgb(153, 10, 10) ;'>Disease Prediction System</h1>
-    <h4 style='text-align: center; color:rgb(58, 72, 86);'>Using Machine Learning Models</h4>
+    <h1 style='text-align: center; color: rgb(153, 10, 10) ;'>Disease Prediction System</h1>
+    <h4 style='text-align: center; color: rgb(58, 72, 86);'>Using Machine Learning Models</h4>
     <hr>
     """, unsafe_allow_html=True)
 
